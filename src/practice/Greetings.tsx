@@ -7,7 +7,7 @@ type GreetingsProps = {
 };
 
 const Greetings = ({ name, mark, onClick }: GreetingsProps) => {
-  const handleClick = () => onClick(name);
+  const handleClick = () => {onClick(name)};
   return (
     <div>
       Hello, {name} {mark}
@@ -19,7 +19,7 @@ const Greetings = ({ name, mark, onClick }: GreetingsProps) => {
 };
 
 Greetings.defaultProps = {
-  name: 'ms',
+  mark: 'ms',
 };
 
 export default Greetings;
