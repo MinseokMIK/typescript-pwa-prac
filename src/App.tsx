@@ -1,5 +1,5 @@
 import React from 'react';
-import Greetings from './Greetings';
+import Greetings from './practice/Greetings';
 import logo from './logo.svg';
 import './App.css';
 
