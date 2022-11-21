@@ -1,15 +1,16 @@
 import React from 'react';
-import Greetings from './practice/Greetings';
-import logo from './logo.svg';
+
+//Component import
+import Main from './components/main/main';
+
 import './App.css';
 
 function App() {
-    const onClick = (name :string) => {
-      console.log(`${name} says hello`);
-    };
   return (
-    <Greetings name='Hello' onClick={onClick}/>
+    <div>
+      <Main />
+    </div>
   );
-};
+}
 
 export default App;
