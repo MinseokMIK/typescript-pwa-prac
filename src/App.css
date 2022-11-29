@@ -1,5 +1,7 @@
 .AppDiv{
   width: 500px;
-  background-color: gainsboro;
+  height: 100vh;
+  background-color: wheat;
   margin: auto;
+  box-shadow: 0 0 10px 5px gray;
 }
